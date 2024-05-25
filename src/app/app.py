@@ -8,7 +8,7 @@ def init_db():
     global connection
     try:
         print('Connection to db:', end='')
-        connection = connect(host='db', user='root', password='123')
+        connection = connect(host='localhost', user='root', password='123')
         print('ОК')
 
         print('Create db:', end='')
